@@ -1,0 +1,18 @@
+{
+  "name": "upanupstudios/amilia-php-client",
+  "description": "Amilia API client for PHP",
+  "keywords": ["amilia", "api"],
+  "licencse": "MIT",
+  "authors": [
+    {
+      "name": "Marco Maranao",
+      "email": "marcom@upanup.com"
+    }
+  ],
+  "require": {
+      "guzzlehttp/guzzle": "^6.0 || ^7.0"
+  },
+  "autoload": {
+      "psr-4": { "Upanupstudios\\Amilia\\Php\\Client\\": "src/" }
+  }
+}
